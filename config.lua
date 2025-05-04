@@ -1,10 +1,10 @@
 --[[
     config.lua
-    Shared configuration for lr_properties.
+    Shared configuration for LR_Property.
 
     Ryan
     May 4th, 2025
-    lr_properties
+    LR_Property
 
     ***************************** WARNING ********************************
     THIS CONFIGURATION IS SHARED TO BOTH CLIENT AND SERVER, DO NOT PUT ANY
@@ -13,5 +13,8 @@
 ]]
 
 local config = {}
+
+--// Boolean value, if set to true, a blip will be made for every property the player has keys to
+config.CreateBlipsForAccessibleProperties = true
 
 return config
